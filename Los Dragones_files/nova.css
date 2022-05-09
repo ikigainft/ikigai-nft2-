@@ -1,0 +1,2090 @@
+.counter {
+	margin: -15px 0 30px;
+	font-size: 16px;
+	font-style: italic;
+}
+	
+.has-fixed .header-main {
+	top: 0;
+}
+
+.modal-header {
+	background: #1a2029;
+	border-bottom: 0;
+}
+
+.modal-header .modal-title {
+	margin: 0 auto;
+	color: #FFF;
+}
+
+.header-navbar-s1 .menu > .menu-item > a {
+	padding: 20px 15px !important;
+	font-size: 14px !important;
+}
+
+div.eapps-widget {
+	position: fixed;
+	z-index: 100;
+}
+
+.eapps-social-share-buttons {
+	position: fixed !important;
+	z-index: 100 !important;
+}
+
+#root .buy, #root .text, #root #nova, #root .app-title {
+	display: none !important;
+}
+
+#mint-box.not-connected #root {
+	padding-bottom: 15px;    
+}
+
+#mint-box.not-connected .App-Bar {
+	display: none;
+}
+
+#mint-guide {
+	display: none;
+}
+
+#mint-box.not-connected #mint-guide {
+	display: block;
+}
+
+#modal-mint-guide .modal-body {
+	background: rgb(18,8,29);
+	background: linear-gradient(333deg, rgba(18,8,29,1) 0%, rgba(15,3,59,1) 100%);
+	border: 1px solid rgba(255,255,255,0.1);
+}
+
+.circle {
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 50%;
+	width: 100%;
+	position: relative;
+	background-color: #FFF;
+}
+
+.circle:before {
+	content: "";
+	display: block;
+	padding-top: 100%;
+}
+
+.circle-inner {
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	text-align: center;
+}
+	
+.score-text {
+	margin: auto;
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	height: 1em;
+	line-height: 1em;
+	font-size: 32px;
+}
+
+.menu-mobile nova-header-social .menu-item {
+	display: inline-block;
+	padding: 0 15px;
+}
+
+#live-mint-feed {
+	white-space: nowrap;
+	overflow-x: scroll;
+	-webkit-overflow-scrolling: touch;
+	height: 300px;
+}
+
+#live-mint-feed .slide {
+	width: 200px;
+	display: inline-block;
+	text-align: center;
+	margin-right: 15px;
+}
+		
+#live-mint-feed .slide .image {
+	display: block;
+	width: 100%;
+	background: #eaf3fc url('https://nova-host.nyc3.cdn.digitaloceanspaces.com/nova/loading.gif') no-repeat center center;
+	display: block;
+	border-radius: 5px;
+	overflow: hidden;
+	margin-block: 15px;
+	position: relative;
+	box-shadow: 0 3px 8px 0 rgb(0 0 0 / 15%);
+}
+
+#live-mint-feed .slide .image:after {
+	content: "";
+	display: block;
+	padding-top: 100%;
+}
+
+#live-mint-feed .slide img {
+	max-width: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+}
+
+#live-mint-feed .slide .name {
+	font-size: 18px;
+}
+
+#live-mint-feed .slide .minted {
+	display: block;
+	font-size: 14px;
+}
+
+.nova-power {
+	text-align: center;
+	font-size: 12px;
+	color: rgba(255,255,255,0.8);
+	text-shadow: 0 1px 3px rgb(0 0 0 / 60%);
+	margin: 10px;
+}
+
+#header-main-btn.connected {
+	padding-left: 38px;
+}
+
+#header-main-btn.connected .icon {
+	display: inline-block;
+	width: 28px;
+	height: 28px;
+	position: absolute;
+	left: 10px;
+	background-size: contain;
+}
+
+.icon.phantom {
+	background: url("https://nova-host.nyc3.cdn.digitaloceanspaces.com/assets/images/phantom-icon.png") no-repeat center center;
+}
+
+.icon.ledger {
+	background: url("https://nova-host.nyc3.cdn.digitaloceanspaces.com/assets/images/ledger-icon.png") no-repeat center center;
+}
+
+.icon.solflare {
+	background: url("https://nova-host.nyc3.cdn.digitaloceanspaces.com/assets/images/solflare-icon.png") no-repeat center center;
+}
+
+.icon.slope {
+	background: url("https://nova-host.nyc3.cdn.digitaloceanspaces.com/assets/images/slope-icon.png") no-repeat center center;
+}
+
+.icon.sollet {
+	background: url("https://nova-host.nyc3.cdn.digitaloceanspaces.com/assets/images/sollet-icon.png") no-repeat center center;
+}
+
+#header-main-btn.connected .wallet-content {
+	text-align: left;
+	line-height: 16px;
+}
+
+#header-main-btn.connected .balance {
+	font-size: 12px;
+	font-weight: 600;
+}
+
+#header-main-btn.connected .address {
+	font-size: 10px;
+	color: rgba(255,255,255,0.75);
+	font-weight: 400;
+}
+
+reach-portal {
+	z-index: 10000;
+	position: fixed;
+}
+
+#nova-wallet-info {
+	display: none;
+}
+
+#nova-mint-container {
+	position: relative;
+}
+
+#nova-mint.connected #nova-mint-container {
+	padding-bottom: 50px;
+}
+
+#nova-disconnect-wallet-button {
+	position: absolute;
+	background: transparent;
+	bottom: 0;
+	left: 50%;
+	transform: translate(-50%, 0%);
+	border: 1px dashed rgba(255,255,255,0.15);
+	font-size: 14px;
+	border-radius: 60px;
+	padding: 2px 15px;
+	color: rgba(255,255,255,0.4);
+	white-space: nowrap;
+}
+
+#nova-disconnect-wallet-button:hover {
+	color: #FFF;
+	border: 1px solid rgba(255,255,255,0.5);
+}
+
+#nova-connect-wallet-button {
+	display: inline-block;
+	height: auto;
+}
+
+#nova-connect-wallet-button span {
+	display: inline;
+	margin-left: 10px;
+	vertical-align: middle;
+}
+
+#nova-action-button {
+	display: inline-block;
+	white-space: break-spaces;
+}
+
+#nova-mint-transaction {
+	font-size: 14px;
+	margin: 10px 0 0;
+}
+
+#mint-box.not-connected #mint-guide {
+	margin-top: 20px;
+}
+
+#mint-box > .token-status {
+	max-height: none !important;
+	max-width: none !important;	
+}
+
+.wallet-adapter-button {
+	align-items: center;
+	background-color: transparent;
+	border: none;
+	border-radius: 4px;
+	color: #fff;
+	cursor: pointer;
+	display: flex;
+	font-family: DM Sans, Roboto, Helvetica Neue, Helvetica, Arial, sans-serif;
+	font-size: 16px;
+	font-weight: 600;
+	height: 48px;
+	line-height: 48px;
+	padding: 0 24px;
+}
+.wallet-adapter-button-trigger {
+	background-color: #512da8;
+}
+.wallet-adapter-button:not([disabled]):focus-visible {
+	outline-color: #fff;
+}
+.wallet-adapter-button:not([disabled]):hover {
+	background-color: #1a1f2e;
+}
+.wallet-adapter-button[disabled] {
+	background: #404144;
+	color: #999;
+	cursor: not-allowed;
+}
+.wallet-adapter-button-end-icon,
+.wallet-adapter-button-end-icon img,
+.wallet-adapter-button-start-icon,
+.wallet-adapter-button-start-icon img {
+	align-items: center;
+	display: flex;
+	height: 24px;
+	justify-content: center;
+	width: 24px;
+}
+.wallet-adapter-button-end-icon {
+	margin-left: 12px;
+}
+.wallet-adapter-button-start-icon {
+	margin-right: 12px;
+}
+.wallet-adapter-collapse {
+	width: 100%;
+}
+.wallet-adapter-dropdown {
+	display: inline-block;
+	position: relative;
+}
+.wallet-adapter-dropdown-list {
+	grid-row-gap: 10px;
+	background: #2c2d30;
+	border-radius: 10px;
+	box-shadow: 0 8px 20px rgba(0, 0, 0, 0.6);
+	display: grid;
+	font-family: DM Sans, Roboto, Helvetica Neue, Helvetica, Arial, sans-serif;
+	grid-template-rows: 1fr;
+	list-style: none;
+	margin: 0;
+	opacity: 0;
+	padding: 10px;
+	position: absolute;
+	right: 0;
+	top: 100%;
+	transition: opacity 0.2s ease, visibility 0.2s, -webkit-transform 0.2s ease;
+	transition: opacity 0.2s ease, transform 0.2s ease, visibility 0.2s;
+	transition: opacity 0.2s ease, transform 0.2s ease, visibility 0.2s, -webkit-transform 0.2s ease;
+	visibility: hidden;
+	z-index: 99;
+}
+.wallet-adapter-dropdown-list-active {
+	opacity: 1;
+	-webkit-transform: translateY(10px);
+	transform: translateY(10px);
+	visibility: visible;
+}
+.wallet-adapter-dropdown-list-item {
+	align-items: center;
+	border: none;
+	border-radius: 6px;
+	box-sizing: border-box;
+	color: #fff;
+	cursor: pointer;
+	display: flex;
+	flex-direction: row;
+	font-size: 14px;
+	font-weight: 600;
+	height: 37px;
+	justify-content: center;
+	outline: none;
+	padding: 0 20px;
+	white-space: nowrap;
+	width: 100%;
+}
+.wallet-adapter-dropdown-list-item:not([disabled]):hover {
+	background-color: #1a1f2e;
+}
+.wallet-adapter-modal-collapse-button svg {
+	fill: #999;
+	align-self: center;
+}
+.wallet-adapter-modal-collapse-button.wallet-adapter-modal-collapse-button-active svg {
+	-webkit-transform: rotate(180deg);
+	transform: rotate(180deg);
+	transition: -webkit-transform 0.15s ease-in;
+	transition: transform 0.15s ease-in;
+	transition: transform 0.15s ease-in, -webkit-transform 0.15s ease-in;
+}
+.wallet-adapter-modal {
+	background: rgba(0, 0, 0, 0.5) !important;
+	bottom: 0 !important;
+	left: 0 !important;
+	opacity: 0;
+	overflow-y: auto;
+	position: fixed !important;
+	right: 0;
+	top: 0;
+	transition: opacity 0.15s linear;
+	z-index: 1040;
+}
+.wallet-adapter-modal.wallet-adapter-modal-fade-in {
+	opacity: 1;
+}
+.wallet-adapter-modal-button-close {
+	align-items: center;
+	background: #1a1f2e;
+	border: none;
+	border-radius: 50%;
+	cursor: pointer;
+	display: flex;
+	justify-content: center;
+	padding: 12px;
+	position: absolute;
+	right: 18px;
+	top: 18px;
+}
+.wallet-adapter-modal-button-close:focus-visible {
+	outline-color: #fff;
+}
+.wallet-adapter-modal-button-close svg {
+	fill: #777;
+	transition: fill 0.2s ease 0s;
+}
+.wallet-adapter-modal-button-close:hover svg {
+	fill: #fff;
+}
+.wallet-adapter-modal-overlay {
+	background: rgba(0, 0, 0, 0.5);
+	bottom: 0;
+	left: 0;
+	position: fixed;
+	right: 0;
+	top: 0;
+}
+.wallet-adapter-modal-container {
+	align-items: center;
+	display: flex;
+	justify-content: center;
+	margin: 3rem;
+	min-height: calc(100vh - 6rem);
+}
+@media (max-width: 480px) {
+	.wallet-adapter-modal-container {
+		margin: 1rem;
+		min-height: calc(100vh - 2rem);
+	}
+}
+.wallet-adapter-modal-wrapper {
+	align-items: center;
+	background: #10141f;
+	border-radius: 10px;
+	box-shadow: 0 8px 20px rgba(0, 0, 0, 0.6);
+	box-sizing: border-box;
+	display: flex;
+	flex: 1 1;
+	flex-direction: column;
+	font-family: DM Sans, Roboto, Helvetica Neue, Helvetica, Arial, sans-serif;
+	max-width: 400px;
+	position: relative;
+	z-index: 1050;
+}
+.wallet-adapter-modal-wrapper .wallet-adapter-button {
+	width: 100%;
+}
+.wallet-adapter-modal-title {
+	color: #fff;
+	font-size: 24px;
+	font-weight: 500;
+	line-height: 36px;
+	margin: 0;
+	padding: 64px 48px 10px;
+	text-align: center;
+}
+@media (max-width: 374px) {
+	.wallet-adapter-modal-title {
+		font-size: 18px;
+	}
+}
+.wallet-adapter-modal-list {
+	list-style: none;
+	margin: 0 0 12px;
+	padding: 0;
+	width: 100%;
+}
+.wallet-adapter-modal-list .wallet-adapter-button {
+	border-radius: 0;
+	font-size: 18px;
+	font-weight: 400;
+}
+.wallet-adapter-modal-list .wallet-adapter-button-end-icon,
+.wallet-adapter-modal-list .wallet-adapter-button-end-icon img,
+.wallet-adapter-modal-list .wallet-adapter-button-start-icon,
+.wallet-adapter-modal-list .wallet-adapter-button-start-icon img {
+	height: 28px;
+	width: 28px;
+}
+.wallet-adapter-modal-list .wallet-adapter-button span {
+	font-size: 14px;
+	margin-left: auto;
+	opacity: 0.6;
+}
+.wallet-adapter-modal-list-more {
+	align-items: center;
+	align-self: flex-end;
+	background-color: transparent;
+	border: none;
+	color: #fff;
+	cursor: pointer;
+	display: flex;
+	padding: 12px 24px 24px 12px;
+}
+.wallet-adapter-modal-list-more svg {
+	fill: #fff;
+	margin-left: 0.5rem;
+	transition: all 0.1s ease;
+}
+.wallet-adapter-modal-list-more-icon-rotate {
+	-webkit-transform: rotate(180deg);
+	transform: rotate(180deg);
+}
+.wallet-adapter-modal-middle {
+	align-items: center;
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: column;
+	padding: 0 24px 24px;
+	width: 100%;
+}
+.wallet-adapter-modal-middle-button {
+	background-color: #512da8;
+	border: none;
+	border-radius: 8px;
+	color: #fff;
+	cursor: pointer;
+	display: block;
+	font-size: 18px;
+	margin-top: 48px;
+	padding: 12px;
+	width: 100%;
+}
+
+.wallet-adapter-modal-wrapper .powered-by-nova {
+	background: url(https://nova-host.nyc3.cdn.digitaloceanspaces.com/nova/nova-launch-logo.png) no-repeat right center;
+	background-size: contain;
+	padding-right: 161px;
+	height: 22px;
+	line-height: 22px;
+	font-size: 12px;
+	margin-bottom: 40px;
+	color: rgba(255,255,255,0.5);
+}
+
+.wallet-adapter-button.wallet-adapter-button-trigger {
+	margin: 0 auto;
+}
+
+#nova-mint.connected .wallet-adapter-button.wallet-adapter-button-trigger {
+	background: transparent;
+	border: 1px dashed rgba(255,255,255,0.4);
+	border-radius: 60px;
+	font-size: 12px;
+	padding: 5px 20px;
+	line-height: 20px;
+	height: auto;
+	font-weight: normal;
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+@media only screen and (max-width: 768px) {
+	#modal-mint-guide h5 {
+		font-size: 16px;
+	}
+	
+	#modal-mint-guide .circle {
+		width: 48px;
+		float: left;
+		margin-bottom: 15px;
+	}
+	
+	#iframe-widget-wrapper {
+		height: 390px !important;
+	}
+
+	#header .logo img {
+		max-width: 100% !important;
+		height: auto !important;
+		max-height: 60px;
+	}
+	#header .header-logo {
+		max-width: calc(100% - 60px);
+	}
+	
+	nova-header.menu-shown {
+		position: fixed;
+		background: rgba(0,0,0,0.9);
+		top: 0;
+		width: 100%;
+		left: 0;
+	}
+	
+	.roadmap-step {
+		max-width: calc(100% - 50px);
+	}
+	
+	#mint-time-convert-link {
+		display: block;
+	}
+	
+	#header-main-btn.connected {
+		position: fixed;
+		bottom: 20px;
+		right: 15px;
+		padding: 10px 20px 10px 45px !important;
+		box-shadow: 0 1px 10px -3px rgb(0 0 0 / 50%);
+	}
+	
+	#nova-action-button {
+		font-size: 16px;
+		padding: 15px 30px;
+	}
+	
+	.nova-market-item-details-attributes .attribute-info .attribute-detail {
+		margin-right: 0;
+	}
+	
+	.header-nav-toggle {
+		z-index: 10;
+	}
+	
+	#header-main-btn {
+		padding: 10px 30px;
+		font-size: 14px;
+	}
+	
+	.nk-wrap { 
+		overflow-x: hidden; 
+	}
+}
+
+/**
+Marketplace Specific
+
+ * The "shine" element
+ */
+
+.shiny:after {
+  animation: shine 3s ease-in-out  infinite;
+  animation-fill-mode: forwards;  
+  content: "";
+  position: absolute;
+  top: -110%;
+  left: -210%;
+  width: 200%;
+  height: 200%;
+  opacity: 0;
+  transform: rotate(30deg);
+  
+  background: rgba(255, 255, 255, 0.15);
+  background: linear-gradient(
+	to right, 
+	rgba(255, 255, 255, 0.15) 0%,
+	rgba(255, 255, 255, 0.15) 77%,
+	rgba(255, 255, 255, 0.7) 92%,
+	rgba(255, 255, 255, 0.0) 100%
+  );
+}
+
+/* Active state */
+@keyframes shine{
+  10% {
+	opacity: 1;
+	top: -30%;
+	left: -30%;
+	transition-property: left, top, opacity;
+	transition-duration: 0.7s, 0.7s, 0.15s;
+	transition-timing-function: ease;
+  }
+  100% {
+	opacity: 0;
+	top: -30%;
+	left: -30%;
+	transition-property: left, top, opacity;
+  }
+}
+
+@-webkit-keyframes scale {
+  0% {
+	-webkit-transform: scale(1);
+			transform: scale(1);
+	opacity: 1; }
+  45% {
+	-webkit-transform: scale(0.1);
+			transform: scale(0.1);
+	opacity: 0.7; }
+  80% {
+	-webkit-transform: scale(1);
+			transform: scale(1);
+	opacity: 1; } }
+@keyframes scale {
+  0% {
+	-webkit-transform: scale(1);
+			transform: scale(1);
+	opacity: 1; }
+  45% {
+	-webkit-transform: scale(0.1);
+			transform: scale(0.1);
+	opacity: 0.7; }
+  80% {
+	-webkit-transform: scale(1);
+			transform: scale(1);
+	opacity: 1; } }
+
+.ball-pulse > div:nth-child(1) {
+  -webkit-animation: scale 0.75s -0.24s infinite cubic-bezier(0.2, 0.68, 0.18, 1.08);
+		  animation: scale 0.75s -0.24s infinite cubic-bezier(0.2, 0.68, 0.18, 1.08); }
+
+.ball-pulse > div:nth-child(2) {
+  -webkit-animation: scale 0.75s -0.12s infinite cubic-bezier(0.2, 0.68, 0.18, 1.08);
+		  animation: scale 0.75s -0.12s infinite cubic-bezier(0.2, 0.68, 0.18, 1.08); }
+
+.ball-pulse > div:nth-child(3) {
+  -webkit-animation: scale 0.75s 0s infinite cubic-bezier(0.2, 0.68, 0.18, 1.08);
+		  animation: scale 0.75s 0s infinite cubic-bezier(0.2, 0.68, 0.18, 1.08); }
+
+.ball-pulse > div {
+  background-color: #fff;
+  width: 15px;
+  height: 15px;
+  border-radius: 100%;
+  margin: 2px;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  display: inline-block; 
+}
+
+.loader {
+	text-align: center;
+	padding: 100px;
+	margin-bottom: 80vh;
+}
+
+.nova-fail-load-container {
+	background: rgba(0,0,0,0.3);
+	padding: 5px 15px;
+	margin: 0 15px 15px;
+	border-radius: 5px;
+}
+
+
+#market {
+	min-height: 100vh;
+	margin-bottom: 30px;
+}
+
+#market .nova-market-main-after-header {
+	display: none;
+}
+
+#nova-market-main {
+	position: relative;
+	padding: 0 15px;
+}
+
+#header-main-btn {
+	vertical-align: middle;
+}
+
+#nova-market-main .nova-market-nav-container .navbar-brand,
+#nova-market-main .nova-market-nav-container .navbar-toggler, 
+#nova-market-main .nova-market-nav-container .nav-link,
+#nova-market-main .nova-market-nav-container .wallet-adapter-button {
+	display: none !important;
+}
+
+#nova-market-main .nova-market-navbar {
+	width: 100%;
+	position: absolute;
+	top: -80px;
+	padding: 0;
+	left: -12px;
+}
+
+#market #nova-market-main .nova-market-navbar {
+	top: -30px;
+	left: 0;
+}
+
+
+.navbar-expand .navbar-collapse {
+	height: 0;
+}
+
+/* Marketplace Listings (Nova API served) */
+#market-listings {
+	padding: 0 10px;
+}
+
+#market #stats .stat-detail {
+	background: rgba(0,0,0,0.3);
+	padding: 5px 10px;
+	font-size: 14px;
+	border-radius: 5px;
+	margin-bottom: 5px;
+}
+
+#market #stats .stat-detail h5 {
+	color: rgba(255,255,255,0.75);
+	font-size: 18px;
+}
+
+#market #stats {
+	margin: 0 -10px;
+	margin-top: 10px;
+}
+
+#market #stats .col-6 {
+	padding: 0 5px;
+}
+
+.listing-item {
+	padding: 10px 5px;
+}
+
+.listing-item .content {
+	padding: 10px;
+	background: rgba(255,255,255,0.04);
+	box-shadow: 0 0 8px 0 rgb(0 0 0 / 30%);
+	border-radius: 5px;
+	border: 1px solid hsla(0,0%,100%,.1);
+}
+
+.listing-item.your-listing .content {
+	border: 1px solid hsla(0,0%,100%,.4);
+}
+
+.listing-item .content > a.image-link {
+	display: block;
+	overflow: hidden;
+	position: relative;
+	margin-bottom: 15px;
+	border-radius: 5px;
+	overflow: hidden;
+	position: relative;
+	box-shadow: 0 3px 8px 0 rgb(0 0 0 / 15%);
+	margin-left: -11px;
+	width: calc(100% + 22px);
+	margin-top: -11px;
+}
+
+.listing-item .image {
+	width: 100%;
+	background: #eaf3fc url('https://novalaunch.art/nova/loading.gif') no-repeat center center;
+	display: block;
+	position: relative;
+}
+
+.listing-item .image .badge {
+	position: absolute;
+	top: 5px;
+	left: 5px;
+	line-height: 18px;
+}
+
+.listing-item .image:after {
+	content: "";
+	display: block;
+	padding-top: 100%;
+}
+
+.listing-item .image img {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+}
+
+.listing-item .content h5 {
+	font-size: 14px;
+	margin-bottom: 5px;
+}
+
+body:not(.dark-text) .listing-item .content h5 {
+	color: rgba(255,255,255,0.6);
+}
+
+.listing-item .btn {
+	padding: 5px 10px;
+	min-width: initial;
+	width: 100%;
+	margin-top: 0;
+}
+
+.listing-item .price {
+	background: transparent url(https://nova-host.nyc3.cdn.digitaloceanspaces.com/nova/images/solana-sol-logo.svg) no-repeat left center;
+	padding-left: 25px;
+	margin-bottom: 10px;
+	height: 12px;
+	line-height: 14px;
+	margin-top: 10px;
+	font-weight: 600;
+}
+
+body:not(.dark-text) .listing-item .price {
+	color: #FFF;
+}
+
+.listing-item  .rarity-rank {
+	font-size: 14px;
+}
+
+body:not(.dark-text) .listing-item  .rarity-rank {
+	color: rgba(255,255,255,0.6);
+}
+
+#filter {
+	display: none;
+}
+
+#filter-form .bootstrap-select > .dropdown-toggle {
+	padding: 5px 15px;
+}
+
+#pagination {
+	text-align: center;
+	margin: 30px 0;
+	overflow: scroll;
+	border-radius: 5px;
+}
+
+/* Wallet Page */
+#nova-market-main .tab-content {
+	width: 100% !important;
+	min-height: 90vh;
+}
+
+#nova-market-main .nova-market-collection-row {
+	margin: 0;
+}
+
+#nova-market-main .tab-content .collection-title {
+	display: block;
+	width: 100%;
+	padding: 0 15px;
+	color: #FFF;
+	font-size: 24px;
+}
+
+body.dark-text #nova-market-main .tab-content .collection-title {
+	color: #000;
+}
+
+#nova-market-main .nav-tabs {
+	border: none;
+}
+
+#nova-market-main .nav-tabs .nav-item {
+	margin-right: 10px;
+	border: none;
+}
+
+/* Profile & Wallet Page */
+#wallet #nova-market-main.connected .nova-market-main-after-header {
+	display: none;
+}
+
+#wallet .nova-not-connected-container {
+	min-height: 80vh;
+	width: 100%;
+	text-align: center;
+}
+
+#wallet .nova-not-connected-container button {
+	top: 25%;
+	position: relative;
+	padding: 15px 50px;
+	height: auto;
+	margin: 0 auto;
+}
+
+#wallet .tab-nav-line {
+	margin-bottom: 5px;
+}
+
+#wallet .tab-nav li a:not(.active) {
+	color: rgba(255,255,255,0.5);
+}
+
+body.dark-text #wallet .tab-nav li a:not(.active) {
+	color: rgba(0,0,0,0.5);
+}
+
+#profile {
+	margin-bottom: 30px;
+}
+
+#profile .avatar {
+	display: block;
+	border-radius: 300px;
+	margin: 0 auto;
+	max-width: 124px;
+}
+
+.profile-panel {
+	padding: 15px;
+	background: rgba(255,255,255,0.04);
+	box-shadow: 0 0 8px 0 rgb(0 0 0 / 30%);
+	border-radius: 5px;
+	border: 1px solid hsla(0,0%,100%,.1);
+}
+
+.profile-panel h4, .profile-panel small a {
+	color: rgba(255,255,255,0.6);
+}
+
+body.dark-text .profile-panel h4, 
+body.dark-text .profile-panel small a {
+	color: rgba(0,0,0,0.6);
+}
+
+.alert.alert-dark {
+	background: rgba(0,0,0,0.4);
+	padding: 30px;
+}
+
+#listed-nfts, #unlisted-nfts, #other-nfts .row {
+	margin: 0 -5px;
+}
+
+.nova-market-navbar .nav-link, 
+.nova-market-navbar .wallet-adapter-button-trigger {
+	padding: 8px 20px;
+	max-width: auto;
+	height: auto;
+	line-height: inherit;
+}
+
+.nova-market-navbar .navbar-text {
+	position: relative;
+	padding: 3px;
+	margin-left: 10px;
+}
+
+#market #nova-market-main {
+	padding: 0 20px;
+}
+
+#market .nova-market-nft-list-item {
+	padding: 0 10px;
+}
+
+#market .nova-market-listing-price {
+	color: #FFF;
+	font-size: 14px;
+	margin-bottom: 15px;
+}
+
+.nova-market-main-after-header .card {
+	padding: 10px;
+	background: rgba(255,255,255,0.04);
+	box-shadow: 0 0 8px 0 rgb(0 0 0 / 30%);
+	border: 1px solid hsla(0,0%,100%,.1);
+}
+
+.nova-market-main-after-header .card .card-body {
+	padding: 0;
+}
+
+.nova-market-main-after-header .loading .card {
+	text-align: center;
+	min-height: 300px;
+	line-height: 300px;
+}
+
+.nova-market-main-after-header .card > span {
+	margin-bottom: 15px !important;
+	border-radius: 3px;
+	margin-left: -10px !important;
+	width: calc(100% + 20px) !important;
+	max-width: none !important;
+	margin-top: -10px !important;
+	cursor: pointer;
+}
+
+.nova-market-listing-button {
+	margin-top: 0 !important;
+	width: 100%;
+	margin-bottom: 0;
+	min-width: auto;
+	padding: 5px 0;
+}
+
+.nova-market-main-after-header .card-title {
+	color: rgba(255,255,255,0.6);
+	font-size: 14px;
+	margin-bottom: 5px;
+}
+
+.nova-market-item-details-main h3 {
+	color: #FFF;
+}
+
+body.dark-text .nova-market-item-details-main h3 {
+	color: #000;
+}
+
+.nova-market-item-details {
+	margin: 0 15px;
+	width: calc(100% - 45px);
+	display: block;
+	flex: none;
+	padding: 0 !important;
+}
+
+.breadcrumb {
+	background: transparent;
+	padding: 0;
+	margin-bottom: 20px;
+}
+
+/* Token Listing page */
+
+#listing .breadcrumb {
+	padding: 0 15px;
+}
+
+#listing {
+	padding: 0;
+	overflow-x: hidden;
+}
+
+#listing .rarity-ranking {
+	margin-bottom: 15px;
+}
+
+#listing .marketplace-icon {
+	display: inline-block;
+	width: 24px;
+	margin: 0 5px;
+}
+
+.nova-market-unlisted .price {
+	font-size: 20px;
+	font-weight: 600;
+	color: #FFF;
+	margin-bottom: 10px;
+	background: transparent url(https://nova-host.nyc3.cdn.digitaloceanspaces.com/nova/images/solana-sol-logo.svg) no-repeat left center;
+	padding-left: 30px;
+	height: 14px;
+	line-height: 14px;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+
+body.dark-text .nova-market-unlisted .price {
+	color: #000;
+}
+
+.nova-manage-nft-listing h6 {
+	display: inline-block;
+	margin: 0 15px 0 0;
+	color: rgba(255,255,255,0.3);
+}
+
+body.dark-text .nova-manage-nft-listing h6 {
+	color: rgba(0,0,0,0.4);
+}
+
+body.dark-text #listing .tc-light {
+	color: #000;
+}
+
+#fee-breakdown .you-keep {
+	color: #FFF;
+	font-weight: 600;
+	margin-bottom: 5px;
+}
+
+body.dark-text #fee-breakdown .you-keep {
+	color: #000;
+}
+
+#fee-breakdown ul {
+	font-size: 14px;
+	color: rgba(255,255,255,0.5);
+}
+
+body.dark-text #fee-breakdown ul {
+	color: rgba(0,0,0,0.5);
+}
+
+/* Buy Mode - not wallet holder */
+.nova-buy-form .gap-2 {
+	width: fit-content;
+	margin-bottom: 30px;
+}
+
+.nova-buy-form #nova-marketplace-price, 
+.nova-buy-form .input-group-text {
+	background: transparent !important;
+	color: rgba(255,255,255,0.7) !important;
+	margin-top: -8px;
+}
+
+.nova-buy-form .input-group-text {
+	margin-top: -10px;
+}
+
+.nova-buy-form .input-group {
+	background: transparent url(https://nova-host.nyc3.cdn.digitaloceanspaces.com/nova/images/solana-sol-logo.svg) no-repeat left center;
+	padding-left: 20px;
+	height: 14px;
+	margin-top: 10px;
+}
+
+.nova-buy-form #nova-marketplace-price {
+	height: 30px;
+	font-size: 24px;
+	width: 100px;
+	color: #FFF !important;
+	font-weight: 600;
+}
+
+.nova-buy-form .nova-form-button {
+	margin-bottom: 5px;
+}
+
+.nova-market-sell-container {
+	width: 100%;
+}
+
+.nova-market-sell-container .gap-2 {
+	display: inline-block;
+	position: relative;
+}
+
+.nova-market-sell-container .d-grid {
+	display: inline-block;
+}
+
+.nova-market-sell-container .d-grid .nova-form-button {
+	padding: 5px 20px;
+	min-width: auto;
+	margin-left: 15px;
+}
+
+.nova-market-cancel-container, .nova-market-sell-container {
+	display: inline-block;
+}
+
+.nova-market-cancel-container button {
+	padding: 5px 15px;
+	min-width: auto;
+}
+
+.nova-market-item-details-attributes {
+	padding: 15px;
+}
+
+.nova-market-item-details .card-header {
+	display: none;
+}
+
+.nova-market-item-details .card-body {
+	padding: 0.75rem 1.25rem !important;
+}
+
+.attribute-info .attribute-rarity {
+	font-size: 13px;
+	display: block;
+	font-weight: normal;
+	color: rgba(255,255,255,0.7);
+}
+
+.attribute-info .attribute-rarity .badge {
+	font-size: 10px;
+	padding: 0 8px;
+	line-height: 16px;
+	vertical-align: middle;
+	margin-right: 3px;
+}
+
+.attribute-info .card-text {
+	color: #FFF;
+	font-weight: bold;
+	margin-bottom: 0;
+	margin-right: 45px;
+}
+
+.attribute-info .attribute-image,
+.attribute-info .bg-attribute-image {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	width: 48px;
+	height: 48px;
+	border-radius: 5px;
+	opacity: 0.8;
+}
+
+.attribute-info:hover .attribute-image {
+	opacity: 1;
+}
+
+.nova-market-item-details-about {
+	margin-top: 15px;
+}
+
+.nova-market-item-details-main .col {
+	flex: none;
+}
+
+.last-seen {
+	font-size: 14px;
+}
+
+#item-activity {
+	margin-bottom: 30px;
+}
+
+#item-activity .alert {
+	background: rgba(0,0,0, 0.25);
+}
+
+#item-activity .alert .col-md-2 {
+	text-align: center;
+}
+
+#item-activity .alert .col-md-2 svg {
+	width: 32px;
+	height: 32px;
+	fill: rgba(255,255,255,0.4);
+}
+
+#item-activity .alert p {
+	margin-bottom: 0;
+	color: rgba(255,255,255,0.9);
+}
+
+#item-activity .alert p a {
+	color: rgba(255,255,255,0.3);
+	text-decoration: none;
+}
+
+.nova-market-item-comments {
+	width: 100%;
+}
+
+#nova-marketplace-price, 
+.nova-form-container .input-group-text {
+	background: rgba(0,0,0,0.3);
+	border: none;
+	color: #FFF;
+}
+
+.nova-form-container .input-group {
+	width: inherit !important;
+}
+
+.nova-form-container small.text-danger {
+	position: absolute;
+	bottom: -8px;
+	left: 0;
+	background: rgba(0,0,0,0.3);
+	padding: 2px 15px;
+	border-radius: 0 0 5px 5px;
+	font-size: 12px;
+	line-height: 20px;
+}
+
+.nova-form-container .form-label {
+	color: #FFF;
+}
+
+.nova-image-container > span {
+	margin: 0 15px !important;
+	border-radius: 3px;
+	box-shadow: 0 0 8px 0 rgb(0 0 0 / 30%);
+}
+
+.attributes-container {
+	margin: 15px 5px 10px 0;
+}
+
+.nova-market-item-details-chain {
+	font-size: 14px;
+	padding: 10px;
+	background: rgba(255,255,255,0.04);
+	box-shadow: 0 0 8px 0 rgb(0 0 0 / 30%);
+	border: 1px solid hsla(0,0%,100%,.1);
+	margin-bottom: 30px;
+	border-radius: 5px;
+}
+
+.nova-market-item-details .card-body {
+	padding: 15px;
+}
+
+.nova-market-item-details-attributes .attribute-info {
+	border: none;
+	box-shadow: none;
+	background: transparent;
+	padding: 0;
+}
+
+.nova-market-item-details-attributes .attribute-info .attribute-detail {
+	background: rgba(0,0,0,0.25);
+	padding: 10px 15px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	border-radius: 5px;
+	position: relative;
+}
+
+.nova-market-item-details-main .eapps-social-share-buttons {
+	position: relative !important;
+	margin-top: 10px;
+}
+
+/* Text color changes */
+body.dark-text #market .text-white {
+	color: #000 !important;
+}
+
+@media only screen and (max-width: 768px) {
+	.nova-market-item-details-main .col-md-7 {
+		padding: 0 30px;
+	}
+	.nova-market-item-details {
+		width: calc(100% - 30px);
+	}
+	
+	#filter-form {
+		margin: 15px 0 0;
+	}
+	
+	#item-activity {
+		padding: 0 15px;
+	}
+	
+	.listing-item {
+		padding: 10px 0;
+		margin-left: -20px;
+		max-width: none;
+		width: calc(100% + 40px);
+		flex: none;
+		padding-bottom: 0;
+	}
+	
+	.listing-item .content {
+		padding: 10px 20px;
+	}
+	
+	.listing-item .content > a.image-link {
+		width: 124px;
+		display: inline-block;
+		margin-right: 15px;
+		margin-top: 5px;
+		margin-left: 0;
+		vertical-align: middle;
+		margin-bottom: 5px;
+	}
+	
+	.listing-item .content .text {
+		display: inline-block;
+		vertical-align: middle;
+		width: calc(100% - 140px);
+	}
+	
+	.listing-item .image .badge {
+		font-size: 11px;
+		font-weight: normal;
+	}
+}
+
+.lds-ripple-parent {
+	display: -moz-box;
+	display: flex;
+	-moz-box-pack: center;
+	justify-content: center;
+	-moz-box-align: center;
+	align-items: center;
+	margin: 0 auto;
+}
+.lds-ripple {
+	position: relative;
+}
+.lds-ripple div {
+	position: absolute;
+	opacity: 1;
+	border-radius: 50%;
+	-webkit-animation: lds-ripple 1s cubic-bezier(0, 0.2, 0.8, 1) infinite;
+	-moz-animation: lds-ripple 1s cubic-bezier(0, 0.2, 0.8, 1) infinite;
+	animation: lds-ripple 1s cubic-bezier(0, 0.2, 0.8, 1) infinite;
+}
+.lds-ripple div:nth-child(2) {
+	-webkit-animation-delay: -0.5s;
+	-moz-animation-delay: -0.5s;
+	animation-delay: -0.5s;
+}
+@-webkit-keyframes lds-ripple {
+	0% {
+		top: 28px;
+		left: 28px;
+		width: 0;
+		height: 0;
+		opacity: 1;
+	}
+	to {
+		top: -1px;
+		left: -1px;
+		width: 58px;
+		height: 58px;
+		opacity: 0;
+	}
+}
+@-moz-keyframes lds-ripple {
+	0% {
+		top: 28px;
+		left: 28px;
+		width: 0;
+		height: 0;
+		opacity: 1;
+	}
+	to {
+		top: -1px;
+		left: -1px;
+		width: 58px;
+		height: 58px;
+		opacity: 0;
+	}
+}
+@keyframes lds-ripple {
+	0% {
+		top: 28px;
+		left: 28px;
+		width: 0;
+		height: 0;
+		opacity: 1;
+	}
+	to {
+		top: -1px;
+		left: -1px;
+		width: 58px;
+		height: 58px;
+		opacity: 0;
+	}
+}
+
+.section-connect:before {
+	display: none;
+}
+
+/* Emoji Picker */
+.emoji-reactions-current > button {
+	padding: 2px 15px;
+	background: rgba(0,0,0,0.3);
+	border: 1px solid transparent;
+	border-radius: 5px;
+	margin: 0 10px 10px 0;
+	position: relative;
+}
+
+.emoji-reactions-current > p {
+	font-size: 14px;
+	color: #82867b;
+}
+
+.emoji-reactions-current > button.active {
+	background: rgba(255,255,255,0.1);
+	border: 1px solid rgba(255,255,255,0.15);
+}
+
+.emoji-reactions-current > button .count {
+	font-size: 12px;
+	vertical-align: middle;
+	margin-left: 5px;
+	color: #6e7268;
+}
+
+.emoji-reaction-container {
+	display: inline-block;
+	padding: 5px 10px;
+	background: rgba(255,255,255,0.04);
+	box-shadow: 0 0 8px 0 rgb(0 0 0 / 30%);
+	border: 1px solid hsla(0,0%,100%,.1);
+	border-radius: 5px;
+	position: relative;
+	margin-bottom: 15px;
+}
+
+.emoji-reaction-container .emoji-reaction-toggle {
+	border: none;
+	background: transparent;
+	text-transform: uppercase;
+	font-size: 13px;
+	cursor: pointer;
+	vertical-align: middle;
+	line-height: 100%;
+	color: rgba(255,255,255,0.7);
+}
+
+body.dark-text .emoji-reaction-container .emoji-reaction-toggle {
+	color: rgba(0,0,0,0.7);
+}
+
+.emoji-reaction-container .emoji-reaction-toggle svg {
+	margin-top: -2px;
+	margin-right: 5px;
+}
+
+.emoji-reaction-toggle i {
+	vertical-align: text-top;
+	margin-right: 5px;
+}
+
+.emoji-reaction-container .actions > button.last {
+	border-right: none;
+	margin-right: 0;
+}
+
+.emoji-picker-container {
+	position: absolute;
+	z-index: 1000;
+	top: -1px;
+	left: -1px;
+}
+
+.emoji-mart,
+.emoji-mart * {
+	box-sizing: border-box;
+	line-height: 1.15;
+}
+
+.emoji-mart {
+	font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", sans-serif;
+	font-size: 16px;
+	display: inline-block;
+	color: #222427;
+	border: 1px solid #d9d9d9;
+	border-radius: 5px;
+	background: #fff;
+}
+
+.emoji-mart .emoji-mart-emoji {
+	padding: 6px;
+}
+
+.emoji-mart-bar {
+	border: 0 solid #d9d9d9;
+}
+
+.emoji-mart-bar:first-child {
+	border-bottom-width: 1px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+
+.emoji-mart-bar:last-child {
+	border-top-width: 1px;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+
+.emoji-mart-anchors {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding: 0 6px;
+	color: #858585;
+	line-height: 0;
+}
+
+.emoji-mart-anchor {
+	position: relative;
+	display: block;
+	flex: 1 1 auto;
+	text-align: center;
+	padding: 12px 4px;
+	overflow: hidden;
+	transition: color .1s ease-out;
+	margin: 0;
+	box-shadow: none;
+	background: none;
+	border: none;
+}
+
+.emoji-mart-anchor:hover,
+.emoji-mart-anchor-selected {
+	color: #464646;
+}
+
+.emoji-mart-anchor-selected .emoji-mart-anchor-bar {
+	bottom: 0;
+}
+
+.emoji-mart-anchor-bar {
+	position: absolute;
+	bottom: -3px;
+	left: 0;
+	width: 100%;
+	height: 3px;
+	background-color: #464646;
+}
+
+.emoji-mart-anchors i {
+	display: inline-block;
+	width: 100%;
+	max-width: 22px;
+}
+
+.emoji-mart-anchors svg,
+.emoji-mart-anchors img {
+	fill: #858585;
+	height: 18px;
+	width: 18px;
+}
+
+.emoji-mart-scroll {
+	overflow-y: scroll;
+	height: 270px;
+	padding: 0 6px 6px 6px;
+	will-change: transform; /* avoids "repaints on scroll" in mobile Chrome */
+}
+
+.emoji-mart-search {
+	margin-top: 6px;
+	padding: 0 6px;
+	position: relative;
+}
+
+.emoji-mart-search input {
+	font-size: 16px;
+	display: block;
+	width: 100%;
+	padding: 5px 25px 6px 10px;
+	border-radius: 5px;
+	border: 1px solid #d9d9d9;
+	outline: 0;
+}
+
+.emoji-mart-search input,
+.emoji-mart-search input::-webkit-search-decoration,
+.emoji-mart-search input::-webkit-search-cancel-button,
+.emoji-mart-search input::-webkit-search-results-button,
+.emoji-mart-search input::-webkit-search-results-decoration {
+	/* remove webkit/blink styles for <input type="search">
+	* via https://stackoverflow.com/a/9422689 */
+	-webkit-appearance: none;
+}
+
+.emoji-mart-search-icon {
+	position: absolute;
+	top: 7px;
+	right: 11px;
+	z-index: 2;
+	padding: 2px 5px 1px;
+	border: none;
+	background: none;
+}
+
+.emoji-mart-category .emoji-mart-emoji span {
+	z-index: 1;
+	position: relative;
+	text-align: center;
+	cursor: default;
+}
+
+.emoji-mart-category .emoji-mart-emoji:hover:before {
+	z-index: 0;
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: #f4f4f4;
+	border-radius: 100%;
+}
+
+.emoji-mart-category-label {
+	z-index: 2;
+	position: relative;
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+}
+
+.emoji-mart-category-label span {
+	display: block;
+	width: 100%;
+	font-weight: 500;
+	padding: 5px 6px;
+	background-color: #fff;
+	background-color: rgba(255, 255, 255, .95);
+}
+
+.emoji-mart-category-list {
+	margin: 0;
+	padding: 0;
+}
+
+.emoji-mart-category-list li {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: inline-block;
+}
+
+.emoji-mart-emoji {
+	position: relative;
+	display: inline-block;
+	font-size: 0;
+	margin: 0;
+	padding: 0;
+	border: none;
+	background: none;
+	box-shadow: none;
+}
+
+.emoji-mart-emoji-native {
+	font-family: "Segoe UI Emoji", "Segoe UI Symbol", "Segoe UI", "Apple Color Emoji", "Twemoji Mozilla", "Noto Color Emoji", "EmojiOne Color", "Android Emoji";
+}
+
+.emoji-mart-no-results {
+	font-size: 14px;
+	text-align: center;
+	padding-top: 70px;
+	color: #858585;
+}
+
+.emoji-mart-no-results-img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+
+.emoji-mart-no-results .emoji-mart-category-label {
+	display: none;
+}
+
+.emoji-mart-no-results .emoji-mart-no-results-label {
+	margin-top: .2em;
+}
+
+.emoji-mart-no-results .emoji-mart-emoji:hover:before {
+	content: none;
+}
+
+.emoji-mart-preview {
+	position: relative;
+	height: 70px;
+}
+
+.emoji-mart-preview-emoji,
+.emoji-mart-preview-data,
+.emoji-mart-preview-skins {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.emoji-mart-preview-emoji {
+	left: 12px;
+}
+
+.emoji-mart-preview-data {
+	left: 68px;
+	right: 12px;
+	word-break: break-all;
+}
+
+.emoji-mart-preview-skins {
+	right: 30px;
+	text-align: right;
+}
+
+.emoji-mart-preview-skins.custom {
+	right: 10px;
+	text-align: right;
+}
+
+.emoji-mart-preview-name {
+	font-size: 14px;
+}
+
+.emoji-mart-preview-shortname {
+	font-size: 12px;
+	color: #888;
+}
+
+.emoji-mart-preview-shortname + .emoji-mart-preview-shortname,
+.emoji-mart-preview-shortname + .emoji-mart-preview-emoticon,
+.emoji-mart-preview-emoticon + .emoji-mart-preview-emoticon {
+	margin-left: .5em;
+}
+
+.emoji-mart-preview-emoticon {
+	font-size: 11px;
+	color: #bbb;
+}
+
+.emoji-mart-title span {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.emoji-mart-title .emoji-mart-emoji {
+	padding: 0;
+}
+
+.emoji-mart-title-label {
+	color: #999A9C;
+	font-size: 26px;
+	font-weight: 300;
+}
+
+.emoji-mart-skin-swatches {
+	font-size: 0;
+	padding: 2px 0;
+	border: 1px solid #d9d9d9;
+	border-radius: 12px;
+	background-color: #fff;
+}
+
+.emoji-mart-skin-swatches.custom {
+	font-size: 0;
+	border: none;
+	background-color: #fff;
+}
+
+.emoji-mart-skin-swatches.opened .emoji-mart-skin-swatch {
+	width: 16px;
+	padding: 0 2px;
+}
+
+.emoji-mart-skin-swatches.opened .emoji-mart-skin-swatch.selected:after {
+	opacity: .75;
+}
+
+.emoji-mart-skin-swatch {
+	display: inline-block;
+	width: 0;
+	vertical-align: middle;
+	transition-property: width, padding;
+	transition-duration: .125s;
+	transition-timing-function: ease-out;
+}
+
+.emoji-mart-skin-swatch:nth-child(1) {
+	transition-delay: 0s
+}
+
+.emoji-mart-skin-swatch:nth-child(2) {
+	transition-delay: .03s
+}
+
+.emoji-mart-skin-swatch:nth-child(3) {
+	transition-delay: .06s
+}
+
+.emoji-mart-skin-swatch:nth-child(4) {
+	transition-delay: .09s
+}
+
+.emoji-mart-skin-swatch:nth-child(5) {
+	transition-delay: .12s
+}
+
+.emoji-mart-skin-swatch:nth-child(6) {
+	transition-delay: .15s
+}
+
+.emoji-mart-skin-swatch.selected {
+	position: relative;
+	width: 16px;
+	padding: 0 2px;
+}
+
+.emoji-mart-skin-swatch.selected:after {
+	content: "";
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 4px;
+	height: 4px;
+	margin: -2px 0 0 -2px;
+	background-color: #fff;
+	border-radius: 100%;
+	pointer-events: none;
+	opacity: 0;
+	transition: opacity .2s ease-out;
+}
+
+.emoji-mart-skin-swatch.custom {
+	display: inline-block;
+	width: 0;
+	height: 38px;
+	overflow: hidden;
+	vertical-align: middle;
+	transition-property: width, height;
+	transition-duration: .125s;
+	transition-timing-function: ease-out;
+	cursor: default;
+}
+
+.emoji-mart-skin-swatch.custom.selected {
+	position: relative;
+	width: 36px;
+	height: 38px;
+	padding: 0 2px 0 0;
+}
+
+.emoji-mart-skin-swatch.custom.selected:after {
+	content: "";
+	width: 0;
+	height: 0;
+}
+
+.emoji-mart-skin-swatches.custom .emoji-mart-skin-swatch.custom:hover {
+	background-color: #f4f4f4;
+	border-radius: 10%;
+}
+
+.emoji-mart-skin-swatches.custom.opened .emoji-mart-skin-swatch.custom {
+	width: 36px;
+	height: 38px;
+	padding: 0 2px 0 0;
+}
+
+.emoji-mart-skin-swatches.custom.opened .emoji-mart-skin-swatch.custom.selected:after {
+	opacity: .75;
+}
+
+.emoji-mart-skin-text.opened {
+	display: inline-block;
+	vertical-align: middle;
+	text-align: left;
+	color: #888;
+	font-size: 11px;
+	padding: 5px 2px;
+	width: 95px;
+	height: 40px;
+	border-radius: 10%;
+	background-color: #fff;
+}
+
+.emoji-mart-skin {
+	display: inline-block;
+	width: 100%;
+	padding-top: 100%;
+	max-width: 12px;
+	border-radius: 100%;
+}
+
+.emoji-mart-skin-tone-1 {
+	background-color: #ffc93a
+}
+
+.emoji-mart-skin-tone-2 {
+	background-color: #fadcbc
+}
+
+.emoji-mart-skin-tone-3 {
+	background-color: #e0bb95
+}
+
+.emoji-mart-skin-tone-4 {
+	background-color: #bf8f68
+}
+
+.emoji-mart-skin-tone-5 {
+	background-color: #9b643d
+}
+
+.emoji-mart-skin-tone-6 {
+	background-color: #594539
+}
+
+/* For screenreaders only, via https://stackoverflow.com/a/19758620 */
+.emoji-mart-sr-only {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	padding: 0;
+	margin: -1px;
+	overflow: hidden;
+	clip: rect(0, 0, 0, 0);
+	border: 0;
+}
